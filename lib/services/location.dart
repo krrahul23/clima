@@ -9,7 +9,6 @@ class Location {
       if (g == LocationPermission.denied) {
         return;
       } else if (g == LocationPermission.deniedForever) {
-        print('denied Forever');
         return;
       }
       bool isLocationServiceEnable = await isLocationServiceEnabled();
