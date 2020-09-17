@@ -74,3 +74,7 @@ class _LocationScreenState extends State<LocationScreen> {
     );
   }
 }
+
+// double temperature = data['main']['temp'];
+// String condition = data['weather'][0]['description'];
+// String cityName = data['name'];
