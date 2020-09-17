@@ -17,8 +17,8 @@ class Location {
         return;
       }
       Position position = await getCurrentPosition(
-          desiredAccuracy: LocationAccuracy.medium,
-          forceAndroidLocationManager: true);
+        desiredAccuracy: LocationAccuracy.low,
+      );
       latitude = position.latitude;
       longitude = position.longitude;
     } catch (e) {
